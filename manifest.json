@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/chrome-manifest.json",
+	"manifest_version": 3,
+	"name": "Sora Downloader",
+	"description": "Download Sora videos easily",
+	"version": "0.0.1",
+	"icons": {
+		"16": "icon/icon-16.png",
+		"48": "icon/icon-48.png",
+		"128": "icon/icon-128.png"
+	},
+	"action": {
+		"default_popup": "",
+		"default_title": "Sora Downloader"
+	},
+	"permissions": [
+		"downloads",
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
