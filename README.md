@@ -2,10 +2,6 @@
 
 Lightweight Chrome extension that downloads the main video on a Sora page when you click the extension icon.
 
-Why this exists:
-- One-click download from pages matching `https://sora.chatgpt.com/p/*`.
-- Minimal permissions and simple UI — click the toolbar icon and the video downloads.
-
 ## Installation
 1. Clone or download this repository.
 2. Open chrome://extensions (or edge://extensions) in a Chromium-based browser.
