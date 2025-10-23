@@ -18,6 +18,10 @@
 		"activeTab",
 		"scripting"
 	],
+	"host_permissions": [
+		"https://sora.chatgpt.com/p/*",
+		"https://sora.chatgpt.com/d/*"
+	],
 	"background": {
 		"service_worker": "background.js"
 	}
